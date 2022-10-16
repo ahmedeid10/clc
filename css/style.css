@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(230, 228, 228);
+}
+h2{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.container{
+    width: 300px;
+    margin:  0 auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+input{
+    padding: 16px 10px;
+    width: 280px;
+    border: 0;
+    font-size: 32px;
+    background-color: #333;
+    color: #eee;
+    text-align: right;
+    
+}
+table{
+    width: 300px;
+    max-width: 100%;
+   background-color: gray;
+}
+td{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #fafafa;
+    cursor: pointer;
+}
+td:not(:last-child){
+    font-size: 20px;
+}
+.vari{
+    background-color: rgb(70, 70, 70);
+    color: #eee;
+    font-size: 28px;
+    font-weight: bold;
+}
+.vari:hover{
+    background-color: #222;
+}
+.equalbtn{
+    background-color: rgb(255, 160, 51);
+}
